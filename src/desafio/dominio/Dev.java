@@ -42,4 +42,47 @@ public class Dev {
     public int hashCode(){
         return Objects.hash(nome, conteudoInscritos, conteudosConcluidos);
     }
+
+    /**
+     * @return String return the nome
+     */
+    public String getNome() {
+        return nome;
+    }
+
+    /**
+     * @param nome the nome to set
+     */
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    /**
+     * @return Set<Conteudo> return the conteudoInscritos
+     */
+    public Set<Conteudo> getConteudoInscritos() {
+        return conteudoInscritos;
+    }
+
+    /**
+     * @param conteudoInscritos the conteudoInscritos to set
+     */
+    public void setConteudoInscritos(Set<Conteudo> conteudoInscritos) {
+        this.conteudoInscritos = conteudoInscritos;
+    }
+
+    /**
+     * @return Set<Conteudo> return the conteudosConcluidos
+     */
+    public Set<Conteudo> getConteudosConcluidos() {
+        return conteudosConcluidos;
+    }
+
+    /**
+     * @param conteudosConcluidos the conteudosConcluidos to set
+     */
+    public void setConteudosConcluidos(Set<Conteudo> conteudosConcluidos) {
+        this.conteudosConcluidos = conteudosConcluidos;
+    }
+
 }
